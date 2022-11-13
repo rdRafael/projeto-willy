@@ -27,27 +27,22 @@ section{
 div.header{
     display: flex;
 }
-div.header > i.material-icons{
-    margin:;
-
-    text-align:left;
+h1{
+    display: inline-block;
+    color: white;
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 5px;
+}
+div.header > i{
     color: white;
     background-color: rgb(128, 0, 128);
     padding: 7px;
     margin: auto;
     border: solid 1px purple;
     border-radius: 20px;
-    
 }
-
-h1{
-    color: white;
-    font-size: 1.5em;
-    margin: 10px;
-    padding: 5px;
-}
-
-div.container{
+div.caixa{
     width: 290px;
     height: 130px;
     background-color: rgb(236, 226, 226);
@@ -56,35 +51,19 @@ div.container{
     border-radius: 3px;
     
 }
-div.container1{
-    width: 290px;
-    height: 58px;
-    background-color: rgba(236, 226, 226, 0.89);
-    color: white;
-    margin: 5px;
-    border-radius: 3px;
-}
-div.container1 > p{
-    color: black;
-    
-    
-    
-    
-}
-div.caixa1 > .p1{
+
+div.caixa2 > .p1{
     text-indent: 15px;
     color: black;
     margin-top: 10px;
     padding: 5px;
 }
-div.caixa1 > .p2{
+div.caixa2 > .p2{
     font-size: 0.9em;
     color: black;
     padding: 5px;
     margin:0px 0px 5px 10px
 }
-
-
 div.saldo{
     background-color:white;
     height: 40px;
@@ -92,4 +71,14 @@ div.saldo{
     margin: 5px 15px 15px 15px;
     padding-bottom: 10px;
 }
-
+div.areacartao{
+    width: 290px;
+    height: 67px;
+    background-color: rgba(236, 226, 226, 0.89);
+    color: white;
+    margin: 5px;
+    border-radius: 3px 3px 0px 0px;
+}
+div.areacartao >p{
+    color: black; 
+}
