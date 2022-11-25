@@ -26,15 +26,18 @@ section{
 }
 div.header{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 h1{
     display: inline-block;
     color: white;
     font-size: 1.5em;
-    margin: 10px;
+    margin: 5px;
     padding: 5px;
 }
-div.header > i{
+div.header > div > i{
     color: white;
     background-color: rgb(128, 0, 128);
     padding: 7px;
@@ -72,8 +75,11 @@ div.saldo{
     padding-bottom: 10px;
 }
 div.areacartao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 290px;
-    height: 67px;
+    height: 77px;
     background-color: rgba(236, 226, 226, 0.89);
     color: white;
     margin: 5px;
@@ -81,4 +87,5 @@ div.areacartao{
 }
 div.areacartao >p{
     color: black; 
+    margin: 15px;
 }
